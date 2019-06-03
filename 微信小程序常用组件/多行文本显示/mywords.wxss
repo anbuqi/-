@@ -1,0 +1,33 @@
+/* components/mywords/mywords.wxss */
+.mywordsview{
+  width: 100vw;
+  margin-left: 2rpx;
+  margin-right: 2rpx;
+  height: auto;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.hint{
+  width: 100%;
+  margin-top: 10rpx;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.divideline{
+  width: 98%;
+  height: 1px;
+  margin-top: 10rpx;
+  background-color: rgba(38, 148, 204, 100);
+}
+.mywords{
+  width: 98%;
+  height: auto;
+  text-align: left;
+  word-break: break-all;
+  text-indent: 2rem;
+}

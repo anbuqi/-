@@ -1,0 +1,75 @@
+/* components/infocard/infocard.wxss */
+.cardview {
+  width: 100%;
+  height: auto;
+  background-color:rgba(238, 238, 238,100);
+  display: flex;
+  flex-direction: column;
+}
+
+.infoview{
+  width: 100%;
+  background-color: white;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  align-items: center;
+  margin-top: 10rpx;
+}
+.hint{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4rpx;
+}
+.hintText{
+  color: gray;
+  margin-left: 4rpx;
+}
+.info{
+  margin-left: 40rpx;
+  text-align: center;
+}
+.divideline{
+  height: 32px;
+  width: 2rpx;
+  margin-left: 10rpx;
+  background-color: rgba(38, 148, 204, 100);
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 1224120 */
+  src: url('//at.alicdn.com/t/font_1224120_clixt5q2rh.eot');
+  src: url('//at.alicdn.com/t/font_1224120_clixt5q2rh.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1224120_clixt5q2rh.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1224120_clixt5q2rh.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1224120_clixt5q2rh.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1224120_clixt5q2rh.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 32px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tubiaozhizuomoban:before {
+  content: "\e63f";
+}
+
+.icon-xingming:before {
+  content: "\e63c";
+}
+
+.icon-xingbie1:before {
+  content: "\e61f";
+}
+
+.icon-banji:before {
+  content: "\e647";
+}
+

@@ -1,0 +1,38 @@
+<!--components/infocard/infocard.wxml-->
+<view class='cardview'>
+  <view class='infoview'>
+    <view class='hint'>
+      <text class='iconfont icon-xingming' style='color:#1296db;'></text>
+      <text class='hintText'>姓名</text>
+      <view class='divideline'></view>
+    </view>
+    <text class='info'>安布奇</text>
+  </view>
+
+  <view class='infoview'>
+    <view class='hint'>
+      <text class='iconfont icon-xingbie1' style='color:#1296db;'></text>
+      <text class='hintText'>性别</text>
+      <view class='divideline'></view>
+    </view>
+    <text class='info'>男</text>
+  </view>
+
+  <view class='infoview'>
+    <view class='hint'>
+      <text class='iconfont icon-banji' style='color:#1296db;'></text>
+      <text class='hintText'>班级</text>
+      <view class='divideline'></view>
+    </view>
+    <text class='info'>2班</text>
+  </view>
+
+  <view class='infoview'>
+    <view class='hint'>
+      <text class='iconfont icon-tubiaozhizuomoban' style='color:#1296db;'></text>
+      <text class='hintText'>学号</text>
+      <view class='divideline'></view>
+    </view>
+    <text class='info'>1234567890</text>
+  </view>
+</view>

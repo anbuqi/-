@@ -1,0 +1,50 @@
+/* components/slideshow/slideshow.wxss */
+.swiperTab{
+    width: 100%;
+    border-bottom: 2rpx solid #ccc;
+    text-align: center;
+    height: 88rpx;
+    line-height: 88rpx;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    background-color: white;
+}
+.swiperTabItem{
+    width: 30%; 
+    color:#434343;
+
+}
+.active{
+    color:#1296db;
+    border-bottom: 8rpx solid #1296db;
+}
+.swiper{
+  width: 100%;
+  height: 100vh;
+   margin-top: 2rpx;
+   background-color: white;
+   margin-bottom: 10rpx;
+}
+.swiperItem{
+  width: 100%;
+  height: auto;
+  background-color:white;
+}
+.homeworkview{
+width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-around;
+}
+.slide-image{
+height: 50vh;
+border-width: 4px;
+border-color: gray;
+margin-top: 10rpx;
+margin-bottom: 10rpx;
+}
+.hint{
+font-size: 0.8rem;
+}

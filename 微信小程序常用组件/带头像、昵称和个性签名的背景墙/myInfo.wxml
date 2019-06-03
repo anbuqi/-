@@ -1,0 +1,7 @@
+<!--components/myInfo/myInfo.wxml-->
+<view class='container'>
+    <cover-image class='headPic' src='{{img}}'>
+    </cover-image>
+   <text class='name'>安布奇</text>
+   <text class='moto'>往后余生，风雪是你，平淡是你。</text>
+</view>

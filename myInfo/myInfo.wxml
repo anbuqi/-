@@ -1,0 +1,7 @@
+<!--components/myInfo/myInfo.wxml-->
+<view class='container'>
+    <cover-image class='headPic' src='{{img}}'>
+    </cover-image>
+   <text class='name'>刘红蕊</text>
+   <text class='moto'>北方工大，永远的家。</text>
+</view>

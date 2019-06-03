@@ -1,0 +1,19 @@
+<!--components/slideshow/slideshow.wxml-->
+<view class='swiperTab'>
+  <view class="swiperTabItem {{currentTab==0?'active':''}}" data-currentTabItem="0" bindtap='clickSwiperTab'>作业1</view>
+  <view class="swiperTabItem {{currentTab==1?'active':''}}" data-currentTabItem='1' bindtap='clickSwiperTab'>作业2</view>
+  <view class="swiperTabItem {{currentTab==2?'active':''}}" data-currentTabItem='2' bindtap='clickSwiperTab'>作业3</view>
+  <view class="swiperTabItem {{currentTab==3?'active':''}}" data-currentTabItem='3' bindtap='clickSwiperTab'>作业4</view>
+  <view class="swiperTabItem {{currentTab==4?'active':''}}" data-currentTabItem='4' bindtap='clickSwiperTab'>作业5</view>
+</view>
+<swiper class='swiper' current="{{currentTab}}" duration="300" bindchange="swiperTab" circular="true">
+  <block wx:for="{{imgUrls}}" wx:key="index">
+    <swiper-item class='swiperItem'>
+      <view class='homeworkview'>
+        <image src="{{item}}" class="slide-image" mode='aspectFit' bindtap='preview' data-img="{{item}}" />
+        <text class='hint'>点击查看大图</text>
+      </view>
+      <infocard></infocard>
+    </swiper-item>
+  </block>
+</swiper>
