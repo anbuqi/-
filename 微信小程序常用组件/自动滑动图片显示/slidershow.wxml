@@ -1,0 +1,9 @@
+<!--components/slidershow.wxml-->
+<swiper class='swipershow' autoplay='true' circular='true'>
+  <block wx:for="{{imgUrls}}" wx:key = "index">
+    <swiper-item class='sliderShowItem'>
+      <image src="{{item}}" class="slide-image" mode='widthFix' />
+    </swiper-item>
+  </block>
+
+</swiper>

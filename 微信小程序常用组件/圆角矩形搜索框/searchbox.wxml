@@ -1,0 +1,7 @@
+<!--components/searchView/searchView.wxml-->
+<view class='search_view' bindtap="search">
+    <view class="search_arr">
+      <icon class="searchcion" size='20' type='search'></icon>  
+     <text class='searchHint'>搜索商品</text>
+  </view>
+</view>
